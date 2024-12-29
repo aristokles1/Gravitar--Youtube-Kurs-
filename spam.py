@@ -4,7 +4,7 @@ liste = "amazing gorgeous blazing stunning tremendous greatest best fantastic ph
 delightful ambitious exciting outstanding incredible spectacular super cool \
 magical revolutionary intuitive beautiful jaw-dropping".upper().split()
 
-
+# Die Elemente der Liste werden durchmischt
 shuffle(liste)
 
 for strophe in range(5):
