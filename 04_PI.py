@@ -47,7 +47,8 @@ for n in range(lines):
     if n % 20_000 == 0:
         tu.update()
 
-# Speichern der Zeichnung als PostScript-Datei
+# Speichern der Zeichnung als PostScript-Datei 
+# (Zum Anschauen wird ein entsprechendes Grafikprogramm benötigt)
 tu.getcanvas().postscript(file="04_PI_picture.ps")
 tu.done()
 
