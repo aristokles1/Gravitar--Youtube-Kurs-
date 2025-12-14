@@ -1,0 +1,8 @@
+# Erzwinge Python-Erkennung für alle .py-Dateien
+*.py linguist-language=Python
+
+# PostScript-Dateien nicht in die Sprachanalyse einbeziehen
+*.ps linguist-detectable=false
+
+# Optional: Textdateien als "Documentation" markieren
+*.txt linguist-documentation=true
